@@ -1,0 +1,136 @@
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans Ms", "Comic Sans";
+}
+
+h1 {      
+    box-sizing: content-box;
+    max-width: 80vw; 
+    font-size: xxx-large;
+    position: relative;
+    left: 13vw;
+    top: 3vh;    
+}
+
+header {
+    position: relative;
+    margin-top: 10vh;
+}
+
+a {    
+    margin: 5px;
+    font-size: 1.2em;
+    box-shadow: 5px 5px 2px  rgb(96, 95, 95);
+    background-color: rgb(60, 122, 193);
+    border: 0.5px solid black;   
+    color: white;
+    padding: 5px;
+    position: relative;
+    left: 73vw;
+    top: 1.5vh;
+    text-decoration:none;
+}
+
+a[href="#"] {
+    background-color: green;
+}
+
+a[href="mailto:mdhl@chihockey.org"] {
+    position: relative;
+    left: 70vw;
+    text-decoration: underline black;
+}
+
+#banner {       
+    width: 98.7vw; 
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 24vh;
+}
+
+.events {
+    position: absolute;
+    top: 35vh;
+}
+main {
+    max-width: auto; 
+    position: relative;
+    bottom: 25vh;
+}
+
+
+#logo {       
+    width: 150px;
+    position: absolute;
+    top: 33vh;
+    left: 3vw;
+}
+
+#imgheader {    
+    max-width: 98.7vw;    
+}
+
+#hockey1 {
+    width: 350px; 
+    position: absolute;
+    left: 70vw;
+    top: 32vh;
+}
+
+#hockey2 {
+    width: 350px; 
+    position: absolute;
+    left: 50vw;
+    top: 7vh;
+}
+
+#hockey3 {
+    width: 350px; 
+    position: absolute;
+    left: 70vw;
+    top: 45vh;
+}
+
+.email {       
+    position: relative;   
+    top: 15vh;
+}
+
+
+.response {   
+    width: 30vw;
+    position: absolute;
+    top: 20vh;
+}
+
+a[href="mailto:mdhl@chihockey.org"] {
+    font-size: 1em;
+    background-color: white;
+    color: rgb(61, 162, 229);
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    position: relative;
+    left: 0vw;    
+    top: 0vh; 
+   
+}
+
+article {
+    width: 50vw;
+    position: absolute;
+    top: 35vh;
+    left: 18vw;   
+}
+
+div {       
+    max-width: 75vw;
+    position:absolute;
+    top: 25vh;
+    left: 20vw;    
+}
+
