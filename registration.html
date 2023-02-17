@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" href="./Assets/favicon.ico">
+    <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Mighty Ducks Hockey League </h1>
+        <nav>
+            <a href="./index.html"> Home </a>
+            <a href="./about_MDHL.html"> About MDHL </a>
+            <a href="./contact.html"> Contact </a>
+            <a href="./game_info.html"> Game Info </a>
+            <a href="./rules.html"> Rules & Policies </a>
+            <a href="#"> Play with us! </a>
+        </nav>
+        <h1> Registration Form</h1>
+    </header>
+    <form action="./show_data.html" method="get">
+        <fieldset id="personaldata">
+            <legend> Personal Data:</legend>
+            <label for="first_name">Player's First Name </label>
+            <input type="text" required name="first_name" id="first_name">
+            <label for="last_name">Last Name </label>
+            <input type="text" required name="last_name" id="last_name">
+            <label for="street_adress">Street Address: </label>
+            <input type="text" required name="street_adress" id="street_adress">
+            <label for="city">City: </label>
+            <input type="text" required name="city" id="city">
+            <label for="zip_code">Zip Code: </label>
+            <input type="text" required name="zip_code" id="zip_code">
+            <label for="birth_date">Birth Date (mm/dd/yyyy): </label>
+            <input type="date" required name="birth_date" id="birth_date">
+        </fieldset>
+        <fieldset id="gender">
+            <legend> Gender:</legend>
+            <label for="male">Male
+                <input required type="radio" id="male" name="gender" value="male"> </label>
+            <label for="female">Female
+                <input required type="radio" id="female" name="gender" value="female"> </label>
+        </fieldset>
+        <fieldset id="schools">
+            <legend> Wich elementary school do you live near?</legend>
+            <label> Closest School: </label>
+            <select id="school" name="school">
+                <option value="" selected disabled="disabled">Select a school</option>
+                <option value="aj_katzenmaier">AJ Katzenmaier</option>
+                <option value="greenbay">Greenbay</option>
+                <option value="howard_a_yeager">Howard A Yeager</option>
+                <option value="marjorie_p_hart">Marjorie P Hart</option>
+                <option value="north_elementary">North Elementary</option>
+                <option value="south_elementary">South Elementary</option>
+            </select>
+        </fieldset>
+        <fieldset id="position">
+            <legend> What position(s) do you normally play? (check all that apply)</legend>
+            <label for="forward">Forward
+                <input type="checkbox" id="forward" name="position" value="forward"> </label>
+            <label for="defense">Defense
+                <input type="checkbox" id="defense" name="position" value="defense"> </label>
+            <label for="midfield">Midfield
+                <input type="checkbox" id="midfield" name="position" value="midfield"> </label>
+            <label for="goalkeeper">Goalkeeper
+                <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper"> </label>
+        </fieldset>
+        <fieldset id="uniform">
+            <legend> Uniform Size:</legend>
+            <label>Youth Small
+                <input required type="radio" id="youth_small" name="uniform" value="y_small"> </label>
+            <label>Youth Medium
+                <input required type="radio" id="youth_medium" name="uniform" value="y_medium"> </label>
+            <label>Youth Large
+                <input required type="radio" id="youth_large" name="uniform" value="y_large"> </label>
+            <label>Small
+                <input required type="radio" id="small" name="uniform" value="small"> </label>
+            <label>Medium
+                <input required type="radio" id="medium" name="uniform" value="medium"> </label>
+            <label>Large
+                <input required type="radio" id="large" name="uniform" value="large"> </label>
+            <label>Extra-Large
+                <input required type="radio" id="extra_large" name="uniform" value="extra_large"> </label>
+        </fieldset>
+        <fieldset id="permission">
+            <legend>Permission to Play:</legend>
+            <p> I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                rules of
+                the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with
+                hockey and
+                in consideration for the "League" accepting the registrant for its hockey programs and activities, I
+                hereby release,
+                discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,
+                including
+                the facilities used for practices and games, against any claim by or on behalf of the registrant as a
+                result of the
+                registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,
+                which transportation By entering your name below, you agree and authorize the above. In addition, by
+                entering
+                your name below,
+                you also acknowledge that you have read the cancellation policy and agree to its terms.</p>
+            <label for="parent">Parent/Guardian digital signature </label>
+            <input type="text" required name="parent" id="parent">
+            <label for="permission_date">Date: </label>
+            <input type="date" required name="permission_date" id="permission_date">
+        </fieldset>
+        <input type="submit" value="submit" id="submit"> <!-- AVERIGUAR SI DEJAR EL SUBMIT ACA O SOLO AL FINAL-->
+    </form>
+</body>
+
+</html>
